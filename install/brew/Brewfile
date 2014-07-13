@@ -1,0 +1,24 @@
+# Install command-line tools using Homebrew
+# Usage: `brew bundle Brewfile`
+
+
+# These formulae provide multiple versions of existing packages.
+# https://github.com/Homebrew/homebrew-versions
+tap homebrew/versions
+
+
+# Precompiled binary formulae for the Homebrew package manager
+# https://github.com/Homebrew/homebrew-binary
+tap homebrew/binary
+
+
+# Install ruby
+install rbenv
+install ruby-build
+
+# Install other
+install mysql
+install wget
+install curl
+install node
+install terminal-notifier
