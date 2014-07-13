@@ -10,5 +10,5 @@ logs
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-.sublime-project
-.sublime-workspace
+*.sublime-project
+*.sublime-workspace
