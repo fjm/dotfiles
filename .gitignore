@@ -1,0 +1,14 @@
+*~
+\#*
+.\#*
+.DS_Store
+.project
+*.ignore
+tmp
+log
+logs
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.sublime-project
+.sublime-workspace
