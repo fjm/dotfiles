@@ -371,12 +371,13 @@ $ cask install istat-menus
 ```
 
 
-## KeyRemap4MacBook.app @ Cask
+## Karabiner.app @ Cask
 キーボードカスタマイズツール
-> https://pqrs.org/macosx/keyremap4macbook/index.html.ja
+旧KeyRemap4MacBook
+> https://pqrs.org/osx/karabiner/
 
 ```
-$ cask install keyremap4macbook
+$ cask install karabiner
 ```
 
 - Delay Until Key Repeat : 300ms
