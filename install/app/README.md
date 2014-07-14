@@ -571,6 +571,14 @@ git管理。普段はTower.appだけど人にgit使ってもらうとき用。
 $ cask install sourcetree
 ```
 
+## Sqwiggle.app @ Cask
+ビデオチャット。
+> https://www.sqwiggle.com
+
+```
+$ cask install sqwiggle
+```
+
 
 ## Sublime Text.app @ Cask
 メインエディタ。Vintage Modeで使っている。
