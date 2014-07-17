@@ -93,3 +93,14 @@ $ chmod +x init.sh && $ sh init.sh
 が超絶時間かかるので先にすませる
 
 以上
+
+------------------------------
+
+参考
+
+- [thiagopnts/dotfiles](https://github.com/thiagopnts/dotfiles)
+  - BrewfileとCaskfileにわける
+- [dotfiles/homebrew/install.sh at master · pangratz/dotfiles](https://github.com/pangratz/dotfiles/blob/master/homebrew/install.sh)
+  - install.shを用意してHomeBrewのインストールからBrewfile / Caskfileの実行までワンセット
+- [Homebrew Caskのアップデート等 - rcmdnk's blog](http://rcmdnk.github.io/blog/2014/05/13/computer-mac-homebrew/)
+  - Caskに対応しているアプリを調べる
