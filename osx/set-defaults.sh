@@ -50,5 +50,13 @@ defaults write com.apple.finder QLEnableTextSelection -bool TRUE
 # defaults delete com.apple.finder QLEnableTextSelection
 
 
+# キー長押し時に装飾アルファベット予測を切ってキーリピートにする
+# ref. https://discussionsjapan.apple.com/message/100775356#100775356
+defaults write -g ApplePressAndHoldEnabled -bool false
+## dafualt
+# defaults delete -g ApplePressAndHoldEnabled
+
+
+
 killall Dock
 killall Finder
