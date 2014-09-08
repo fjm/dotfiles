@@ -357,6 +357,7 @@ Command + tabのアプリ切り替え時にそのアプリのウインドウも�
 ## ImageOptim.app @ Cask
 画像の圧縮/最適化
 > http://imageoptim.com
+
 ```
 $ cask install imageoptim
 ```
@@ -618,7 +619,7 @@ $ cask install textexpander
 
 
 ## Tower.app @ Cask
-メインのgitクライアント
+メインのgitクライアント。v2。
 > http://www.git-tower.com
 
 ```
@@ -719,6 +720,12 @@ Markdownとプレインテキストのハイブリッドな表示スタイルが
 保存先はDropbox。
 
 > https://itunes.apple.com/jp/app/write-beautiful-markdown-note/id848311469?mt=12
+
+
+## Wunderlist.app @ App Store
+共有ToDo管理。チャットっぽく使えたりとシェアするTodo管理に。
+
+> https://itunes.apple.com/app/wunderlist-to-do-list-tasks/id410628904
 
 
 
