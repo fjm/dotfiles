@@ -3,3 +3,6 @@
 	email = info@2244.jp
 [mergetool]
 	keepBackup = true
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
