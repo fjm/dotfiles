@@ -15,6 +15,7 @@ tput sgr 0 0
 
 # Base styles and color palette
 # If you want to check color code, run `./testcolor.sh'
+# ref .[File:Xterm 256color chart.svg - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/File:Xterm_256color_chart.svg)
 BOLD=$(tput bold)
 RESET=$(tput sgr0)
 BLACK=$(tput setaf 0)
@@ -26,11 +27,13 @@ MAGENTA=$(tput setaf 5)
 CYAN=$(tput setaf 6)
 WHITE=$(tput setaf 255)
 ORANGE=$(tput setaf 172)
+GRAY=$(tput setaf 8)
 
 style_user="\[${RESET}${ORANGE}\]"
 style_host="\[${RESET}${YELLOW}\]"
 style_path="\[${RESET}${GREEN}\]"
 style_chars="\[${RESET}${WHITE}\]"
+style_time="\[${RESET}${GRAY}\]"
 style_branch="${CYAN}"
 
 if [[ "$SSH_TTY" ]]; then
@@ -107,6 +110,7 @@ prompt_git() {
 PS1="\[\033]0;\w\007\]"
 # Build the prompt
 PS1+="\n" # Newline
+PS1+="${style_time}[\t] " # Username
 PS1+="${style_user}\u" # Username
 PS1+="${style_chars}@" # @
 PS1+="${style_host}\h" # Host
