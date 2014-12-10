@@ -136,6 +136,13 @@ $ cask install atom
 $ cask install bettertouchtool
 ```
 
+## Brackets
+Adobe製エディタ。
+> http://brackets.io
+```
+$ cask install brackets
+```
+
 
 ## Byword.app @ App Store
 Markdownエディタ。Write.appに乗り換えてほとんど使ってないが一応入れとく。
@@ -766,6 +773,12 @@ $ cask install teleport
 
 ```
 $ cask install java
+```
+
+## Chef @ Cask
+
+```
+$ cask install chefDk
 ```
 
 
