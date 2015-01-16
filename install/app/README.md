@@ -10,8 +10,13 @@ Applications
 
 
 ### Adobe Photoshop
-以下のJSXセットを`/Applications/Adobe Photoshop/Presets` に追加してる
-> http://develo.org/2010/06/10/0154.html
+
+#### Extention
+
+- [Ink. A Photoshop documentor plugin](http://ink.chrometaphore.com/)
+- [QuickGuide | Guchitaka](http://guchitaka.com/project-view/quickguidepro/)
+- [サイト作るときに便利なPhotoShop JSX、ショートカット、アクション](http://develo.org/2010/06/10/0154.html)
+- [ガイドラインや指示書の作成が楽になる！エレメントやマージンのサイズを書き出してくれるPhotoshopのスクリプト -Size Marks | コリス](http://coliss.com/articles/build-websites/operation/design/photoshop-script-size-marks.html)
 
 
 ### Adobe Edge Inspect
