@@ -175,6 +175,22 @@ $ cask install cakebrew
 ```
 
 
+## Calibre
+ebook-convert用
+> http://calibre-ebook.com/
+
+```
+$ cask install Calibre
+```
+
+*パスを通す必要あり
+
+```
+$ sudo ln -s ~/Applications/calibre.app/Contents/console.app/Contents/MacOS/ebook-convert /usr/bin/ebook-convert
+```
+
+
+
 
 ## Charles.app @ Web
 プロキシツール。
@@ -493,6 +509,12 @@ $ cask install path-finder
 以下追加でいれていろいろ捗る。
 > https://itunes.apple.com/jp/app/popclip/id445189367?mt=12
 > http://pilotmoon.com/popclip/extensions/
+
+
+
+## QuickRes.app
+解像度変更アプリ
+> http://www.quickresapp.com
 
 
 ## Ripit.app @ Cask
