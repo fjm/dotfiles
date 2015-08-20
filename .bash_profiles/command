@@ -35,11 +35,13 @@ csscount() {
 # $ git_diff_archive コミット識別子 : HEAD と コミット識別子 の差分を抽出
 # $ git_diff_archive コミット識別子1 コミット識別子2 : 2つのコミットの差分を抽出
 # ------------------------------
-git_diff_archive() {
+
+function git_diff_archive() 
+{
   local diff=""
   local h="HEAD"
   if [ $# -eq 1 ]; then
-    if expr "$1" : '[0-9]*' > /dev/null ; then
+    if expr "$1" : '[0-9]*$' > /dev/null ; then
       diff="HEAD HEAD~${1}"
     else
       diff="HEAD ${1}"
@@ -49,7 +51,9 @@ git_diff_archive() {
     h=$1
   fi
   if [ "$diff" != "" ]; then
-    diff="git diff --name-only ${diff}"
+    diff="git diff --diff-filter=D --name-only ${diff}"
   fi
   git archive --format=zip --prefix=root/ $h `eval $diff` -o archive.zip
 }
+
+
