@@ -254,6 +254,7 @@ $ cask install cyberduck
 
 ## Dash.app @ Cask
 ドキュメント確認
+スニペット機能もあってText Expanderから乗り換えた。
 > http://kapeli.com/dash
 
 ```
@@ -411,6 +412,15 @@ $ cask install karabiner
 
 - Delay Until Key Repeat : 300ms
 - key Repeat : 43ms
+
+
+## Kindle.app @ Cask
+Mac用のKindleアプリ
+> http://www.amazon.co.jp/kindleformac/
+
+```
+$ cask install kindle
+```
 
 
 ## Line.app @ App Store
@@ -635,6 +645,7 @@ $ cask install sublime-text
 
 ## TextExpander.app @ Cask
 アプリまたいでテキストスニペット管理。メールの例文もプログラムのスニペットもコマンドもここで管理。
+=> Dash.app に乗り換えた
 > https://smilesoftware.com/TextExpander/
 
 ```
