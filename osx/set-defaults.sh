@@ -57,6 +57,12 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 # defaults delete -g ApplePressAndHoldEnabled
 
 
+# 通知センターの表示時間を5秒に設定
+defaults write com.apple.notificationcenterui bannerTime 5
+## default
+# defaults delete com.apple.notificationcenterui bannerTime
+
+
 
 killall Dock
 killall Finder
