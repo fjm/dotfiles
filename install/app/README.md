@@ -234,13 +234,9 @@ $ cask install colors
 ```
 
 
-## CotEditor.app @ Cask
+## CotEditor.app @ App Store
 軽量エディタ。
-> http://sourceforge.jp/projects/coteditor/
-
-```
-$ cask install coteditor
-```
+> https://itunes.apple.com/jp/app/coteditor/id1024640650?mt=12
 
 
 ## Cyberduck.app @ Cask
