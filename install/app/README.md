@@ -298,6 +298,13 @@ $ cask install firefox
 ```
 
 
+## Genymotion
+Android環境エミュレート
+> https://www.genymotion.com
+
+
+
+
 ## GitHub.app @ Cask
 > http://mac.github.com/
 
