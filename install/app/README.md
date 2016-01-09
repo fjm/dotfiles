@@ -302,7 +302,9 @@ $ cask install firefox
 Android環境エミュレート
 > https://www.genymotion.com
 
-
+```
+$ cask install genymotion
+```
 
 
 ## GitHub.app @ Cask
