@@ -18,9 +18,12 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 
 # node
-export PATH=/usr/local/share/npm/bin:$PATH
+export PATH=/usr/local/var/nodebrew/current/bin:$PATH
 
 
+# system
+# ulimit -n 1024
+# ulimit -u 1024
 
 
 # Caskroom
