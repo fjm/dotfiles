@@ -222,15 +222,6 @@ $ cask install codekit
 ```
 
 
-## Colors.app @ Cask
-カラーピッカー
-> http://mattpatenaude.com/
-
-```
-$ cask install colors
-```
-
-
 ## CotEditor.app @ App Store
 軽量エディタ。
 > https://itunes.apple.com/jp/app/coteditor/id1024640650?mt=12
@@ -317,7 +308,7 @@ $ cask install genymotion
 > http://mac.github.com/
 
 ```
-$ cask install github
+$ cask install github-desktop
 ```
 
 
@@ -628,22 +619,12 @@ git管理。普段はTower.appだけど人にgit使ってもらうとき用。
 $ cask install sourcetree
 ```
 
-## Sqwiggle.app @ Cask
-ビデオチャット。
-> https://www.sqwiggle.com
-
-```
-$ cask install sqwiggle
-```
-
 
 ## Sublime Text.app @ Cask
 メインエディタ。Vintage Modeで使っている。
-※Sublime Text2 も一応いれとく。
 > http://www.sublimetext.com
 
 ```
-$ cask install sublime-text3
 $ cask install sublime-text
 ```
 
