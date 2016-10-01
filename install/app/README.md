@@ -48,7 +48,6 @@ $ cask install airserver
 
 ```
 $ cask install alfred
-$ cask alfred link
 ```
 
 ###  Custom Searches
@@ -190,8 +189,6 @@ $ sudo ln -s ~/Applications/calibre.app/Contents/console.app/Contents/MacOS/eboo
 ```
 
 
-
-
 ## Charles.app @ Web
 プロキシツール。
 > http://www.charlesproxy.com
@@ -295,6 +292,15 @@ $ cask install evernote
 
 ```
 $ cask install firefox
+```
+
+## Franz.app @ Cask
+
+SlackやFacebookメッセンジャーなどチャット系アプリまとめる
+> http://meetfranz.com
+
+```
+$ cask install franz
 ```
 
 
