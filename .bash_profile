@@ -18,7 +18,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 
 # node
-export PATH=/usr/local/var/nodebrew/current/bin:$PATH
+export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 
 # system
