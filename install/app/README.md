@@ -385,6 +385,16 @@ Command + tabのアプリ切り替え時にそのアプリのウインドウも�
 ```
 
 
+## iA Writer.app @ App Store
+
+メモ。Write.appから乗り換え
+- dropbox同期
+- Hybrid Markdown
+- ディレクトリツリー
+- 外部テキストのインクルード
+> https://ia.net/ja/writer
+
+
 ## ImageOptim.app @ Cask
 画像の圧縮/最適化
 > http://imageoptim.com
@@ -512,6 +522,14 @@ TotalFinder / XtraFinderとか使ってみたが最終的にコレ。
 
 ```
 $ cask install path-finder
+```
+
+## Paw.app @ Cask
+HTTPクライアント
+> https://paw.cloud
+
+```
+$ cask install paw
 ```
 
 
@@ -757,6 +775,8 @@ Markdownとプレインテキストのハイブリッドな表示スタイルが
 保存先はDropbox。
 
 > https://itunes.apple.com/jp/app/write-beautiful-markdown-note/id848311469?mt=12
+
+=> iA Writer.app に乗り換え ( 2016-11-22 )
 
 
 ## Wunderlist.app @ App Store
