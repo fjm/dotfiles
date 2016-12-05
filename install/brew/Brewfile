@@ -22,3 +22,4 @@ install wget
 install curl
 install node
 install terminal-notifier
+install mas
