@@ -12,7 +12,7 @@ brew upgrade
 
 
 # Install homebrew packages from Brewfile
-brew bundle Brewfile
+brew bundle
 
 
 brew cleanup
