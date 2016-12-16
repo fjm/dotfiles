@@ -17,9 +17,7 @@ install rbenv
 install ruby-build
 
 # Install other
-install mysql
 install wget
 install curl
-install node
 install terminal-notifier
 install mas
