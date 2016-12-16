@@ -23,7 +23,7 @@ INSTALL_DIRS=("brew" "app" "gem" "npm")
 if test ! $(which brew)
 then
   echo "Installing Homebrew."
-  ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)" > /tmp/homebrew-install.log
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
 
