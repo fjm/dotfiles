@@ -22,12 +22,6 @@ if [ ! -e ~/Library/Application\ Support/Sublime\ Text\ 3 ]; then
 fi
 
 
-# Tower.app - 複数間Macで設定共有
-if [ ! -e ~/Library/Application\ Support/Tower ]; then
-  ln -s ~/Dropbox/_sync/symbolic/Users/Library/Application\ Support/Tower/ ~/Library/Application\ Support/Tower
-  echo 'ln -s Tower'
-fi
-
 # Versions.app - 複数間Macで設定共有
 if [ ! -e ~/Library/Application\ Support/Versions ]; then
   ln -s ~/Dropbox/_sync/symbolic/Users/Library/Application\ Support/Versions/ ~/Library/Application\ Support/Versions
