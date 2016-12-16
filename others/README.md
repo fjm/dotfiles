@@ -1,55 +1,35 @@
 # Other
 
+## github.com
 
-## Chef
+1. sshの移動
+2. 認証しないと
 
-```bash
-# ローカルにchefいれる
-$ gem install --no-ri --no-rdoc chef
-$ gem install --no-ri --no-rdoc knife-solo
-$ gem install --no-ri --no-rdoc berkshelf
-```
+> Permission denied (publickey).
+> fatal: Could not read from remote repository.
 
-
-## Vagrant
+がでる
 
 ```bash
-# vagrant up 時に Chef が入っているか確認してインストールしてくれる Vagrant プラグイン
-$ vagrant plugin install vagrant-omnibus
-
-# Chefのcookbookとその依存関係を管理するツールとVagrantを連携させるプラグイン
-$ vagrant plugin install vagrant-berkshelf
-
-# 仮想マシンでWebアプリケーションを立ち上げ、ブラウザでホスト側からチェックする場合に 『名前』で参照できるようにしてくれます
-$ vagrant plugin install vagrant-hostsupdater
+ssh -vT git@github.com
 ```
 
+で事前に認証通しておく
 
-### Vagrant sahara
 
-sahara は
-
-> vagrantのVM状態のロールバック管理プラグイン
-
-ref. [jedi4ever/sahara](https://github.com/jedi4ever/sahara)
+## nodebrew
 
 ```bash
-# インストール
-$ vagrant plugin install sahara
+$ brew install nodebrew
+# nodebrewのインストールディレクトリつくる
+$ mkdir ~/.nodebrew
+$ mkdir ~/.nodebrew/src
+# インストール可能なバージョンを取得
+$ nodebrew ls-remote
+# 指定バージョンをインストール
+$ nodebrew install-binary v.xxx
+# インストール済みバージョンを確認
+$ nodebrew list
+# バージョンを指定
+$ nodeberw use v.xxxx
 ```
-
-```bash
-# インストール確認
-$ vagrant
-> コマンド一覧に `sandbox` が追加されているとOK
-
-# 利用開始
-$ vagrant sandbox on
-
-# 状態確認
-$ vagrant sandbox status
-
-# ロールバック
-$ vagrant sandbox rollback
-```
-
