@@ -166,6 +166,7 @@ $ cask install bettertouchtool
 
 Adobe製エディタ。
 > http://brackets.io
+
 ```
 $ cask install brackets
 ```
@@ -393,6 +394,10 @@ $ cask install google-chrome-canary
 ```
 $ cask install google-chrome
 ```
+
+### 設定
+
+- Chrome上でGoogleログイン
 
 ---
 
@@ -680,6 +685,18 @@ Safariの機能を強化するSIMBLプラグイン。ダウンロードファイ
 - [Safariでも快適ブックマーク！はてなブックマークSafari拡張登場！](http://b.hatena.ne.jp/guide/safari_extension)
 - [Awesome Screenshot - Capture, Annotate and Share](http://awesomescreenshot.com/)
 - [Evernote Web クリッパー | Evernote](http://evernote.com/intl/jp/webclipper/)
+
+---
+
+## Sequel Pro @ Cask
+
+MySQLのDB管理
+
+> https://www.sequelpro.com
+
+```
+$ cask install sequel-pro
+```
 
 ---
 
