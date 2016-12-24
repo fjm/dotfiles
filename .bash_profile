@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+source ~/.profile
+
 
 # ** EDIT : dotfiles repository path **
 export DOTFILES=$HOME/Dropbox/dotfiles
@@ -8,13 +10,15 @@ export DOTFILES=$HOME/Dropbox/dotfiles
 # $ ln -s ~/Dropbox/dotfiles/.bash_profile ~/.bash_profile
 # $ source .bash_profile
 
-
 export PATH=/usr/local/bin:$PATH
 
 
 # rbenv
 export PATH=$HOME/.rbenv/bin:/.rbenv/shims:$PATH
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# phpbrew
+source $HOME/.phpbrew/bashrc
 
 
 # node
