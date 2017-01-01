@@ -864,8 +864,10 @@ $ cask install tower
 
 ### 設定
 
-- iCloudで共有
+- Dropboxで設定を共有
 - 転送時のデフォルトパーミッションを設定
+  - ディレクトリ : `775`
+  - ファイル : `664`
 
 ```
 $ cask install transmit
