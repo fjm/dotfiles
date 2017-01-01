@@ -16,8 +16,12 @@ tap homebrew/binary
 install rbenv
 install ruby-build
 
+# Install Develop
+install mysql
+
 # Install other
 install wget
 install curl
 install terminal-notifier
 install mas
+
