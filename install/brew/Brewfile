@@ -24,4 +24,5 @@ install wget
 install curl
 install terminal-notifier
 install mas
+install tree
 
