@@ -41,3 +41,10 @@ if [ ! -e ~/Documents/VMWare ]; then
   mkdir ~/Documents/VMWare
   echo 'mkdir ~/Documents/VMWare'
 fi
+
+# Sketch.app
+if [ ! -e ~/Library/Application\ Support/com.bohemiancoding.sketch3/Plugins ]; then
+  ln -s ~/Dropbox/_sync/symbolic/Users/Library/Application\ Support/Sketch/Plugins ~/Library/Application\ Support/com.bohemiancoding.sketch3/Plugins
+  echo 'ln -s Sketch.app plugins'
+fi
+

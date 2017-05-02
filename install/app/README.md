@@ -23,6 +23,7 @@ iPadやiPhone、Androidならべてブラウザテストする
 
 > http://html.adobe.com/jp/edge/inspect/
 
+---
 
 ## [Deprecated] Air Display Host.app @ Cask
 
@@ -31,9 +32,23 @@ iPad / iPhoneを外部モニタ化。iPad miniをサブディスプレイとし�
 > http://www.avatron.com/applications/air-display/
 
 ```
-$ cask install airdisplay
+# $ cask install airdisplay
 ```
 
+---
+
+## Air Mail 3.app @ App Store
+
+メインのメーラー。Apple Mail.app でGmailつかうの、ラベルまわりがどうも不安定な印象あって乗り換え。
+
+- ラベルがGmailライクに扱える
+- Gmailのショートカットが使える
+- 連携サービスが多い
+  - ex. Fantasticalとか
+
+> http://airmailapp.com
+
+---
 
 ## [Deprecated] AirServer @ Cask [有料]
 
@@ -42,7 +57,7 @@ MacとiOSデバイス間でAirPlay。
 > http://www.airserver.com
 
 ```
-$ cask install airserver
+# $ cask install airserver
 ```
 
 ---
@@ -162,36 +177,36 @@ $ cask install bettertouchtool
 
 ---
 
-## Brackets
+## [Deprecated] Brackets @ Cask
 
 Adobe製エディタ。
 > http://brackets.io
 
 ```
-$ cask install brackets
+# $ cask install brackets
 ```
 
 ---
 
-## Byword.app @ App Store
+## [Deprecated] Byword.app @ App Store
 
 Markdownエディタ。Write.appに乗り換えてほとんど使ってないが一応入れとく。
 > https://itunes.apple.com/app/byword/id420212497?mt=12
 
 ---
 
-## Caffeine.app @ Cask
+## [Deprecated] Caffeine.app @ Cask
 
 起動中はスタンバイさせないためのアプリ。メニューバーでON/OFF
 > http://lightheadsw.com/caffeine/
 
 ```
-$ cask install caffeine
+# $ cask install caffeine
 ```
 
 ---
 
-## CakeBrew.app @ Cask
+## [Deprecated] CakeBrew.app @ Cask
 
 ![](https://www.cakebrew.com/assets/img/app-bg.png)
 
@@ -199,7 +214,7 @@ HomebrewをGUIで管理
 > https://www.cakebrew.com
 
 ```
-$ cask install cakebrew
+# $ cask install cakebrew
 ```
 
 ---
@@ -238,20 +253,20 @@ $ cask install cheatsheet
 
 ---
 
-## Coda 2.app @ App Store
+## [Deprecated] Coda 2.app @ App Store
 
-エディタ。たまに使う。
+エディタ。使ってない。
 > https://itunes.apple.com/jp/app/coda-2/id499340368?mt=12
 
 ---
 
-## CodeKit.app @ Cask [有料]
+## [Deprecated] CodeKit.app @ Cask [有料]
 
 GUIでCoffeeScript/SCSS等のコンパイル
 > http://incident57.com/codekit/
 
 ```
-$ cask install codekit
+# $ cask install codekit
 ```
 
 ---
@@ -285,7 +300,7 @@ $ cask install dash
 
 ---
 
-## Dropbox.app @ Cask
+## Dropbox.app @ Web
 
 ファイル共有
 > https://www.dropbox.com/
@@ -307,7 +322,7 @@ $ cask install easysimbl
 
 ---
 
-## Echofon.app @ App Store
+## [Deprecated] Echofon.app @ App Store
 
 Twitterクライアント
 > https://itunes.apple.com/jp/app/echofon-lite-for-twitter/id403858460?mt=12
@@ -334,13 +349,16 @@ $ cask install firefox
 
 ---
 
-## Franz.app @ Cask
+## [Deprecated] Franz.app @ Cask
 
 SlackやFacebookメッセンジャーなどチャット系アプリまとめる
-> http://meetfranz.com
+> http://meetfranz.como
+
+=> Waveboxに乗り換え
+
 
 ```
-$ cask install franz
+# $ cask install franz
 ```
 
 ---
@@ -366,13 +384,13 @@ $ cask install github-desktop
 
 ---
 
-## Gitter.app @ Cask
+## [Deprecated] Gitter.app @ Cask
 
 チャット
 > https://gitter.im
 
 ```
-$ cask install gitter
+# $ cask install gitter
 ```
 
 ---
@@ -431,25 +449,25 @@ $ cask install google-japanese-ime
 
 ---
 
-## Growl.app @ App Store
+## [Deprecated] Growl.app @ App Store
 
 通知
 > https://itunes.apple.com/jp/app/growl/id467939042?mt=12
 
 ---
 
-## HipChat.app @ Cask
+## [Deprecated] HipChat.app @ Cask
 
 チャット
 > https://www.hipchat.com/downloads
 
 ```
-$ cask install hipchat
+# $ cask install hipchat
 ```
 
 ---
 
-## HyperSwitch.app @ Cask
+## [Deprecated] HyperSwitch.app @ Cask
 
 Command + tabのアプリ切り替え時にそのアプリのウインドウも表示
 > http://bahoom.com/hyperswitch/
@@ -500,7 +518,7 @@ $ cask install istat-menus
 > https://pqrs.org/osx/karabiner/
 
 ```
-$ cask install karabiner
+# $ cask install karabiner
 ```
 
 - Delay Until Key Repeat : 300ms
@@ -548,7 +566,7 @@ $ cask install little-snitch
 
 ---
 
-## LittleSnapper.app
+## [Deprecated] LittleSnapper.app
 
 キャプチャ管理。今は、[Ember](http://realmacsoftware.com/ember)ってアプリに名前かわってるぽい。
 > http://www.macupdate.com/app/mac/29991/littlesnapper
@@ -578,7 +596,7 @@ $ cask install mamp
 
 ---
 
-## Memory Magic.app @ App Store
+## [Deprecated] Memory Magic.app @ App Store
 
 メニューバーからメモリの使用状況確認と開放
 > https://itunes.apple.com/jp/app/memory-magic/id574923230?mt=12
@@ -592,27 +610,31 @@ $ cask install mamp
 
 ---
 
-## Microsoft Office 2011 @ Disc
+## Microsoft Office @ Web
 
 生きるためのオフィス
 > http://www.microsoft.com/japan/mac
 
+=> subscription版に移行
+
 ---
 
-## Mou.app @ Cask
+## [Deprecated] Mou.app @ Cask
 
 Markdownエディタ。左にソース、右にプレビュー。
 > http://mouapp.com
 
+
+
 ```
-$ cask install mou
+# $ cask install mou
 ```
 
 ---
 
 ## [Deprecated] OmniFocus.app @ Cask
 
-TODO管理。
+TODO管理。今は使ってない。
 > https://www.omnigroup.com/omnifocus
 
 ```
@@ -729,6 +751,19 @@ PDFビュアー。目次とか注釈見やすいのでPDFで技術書読む時�
 
 ```
 $ cask install skim
+```
+
+---
+
+## Sketch.app @ Cask
+
+デザインツール
+> https://www.sketchapp.com
+
+### plugin
+
+```
+$ cask install sketch
 ```
 
 ---
