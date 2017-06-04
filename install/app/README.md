@@ -166,6 +166,18 @@ $ cask install atom
 
 ---
 
+## Be Focused.app @ AppStore
+
+ポモドーロタイマー。
+- メニューバーに残り時間でる
+- ショートカットで操作できる
+
+### 設定
+
+- `⌘command` + `⇧shift` + `R` : タイマー開始 / タイマー停止
+
+---
+
 ## BetterTouchTool.app @ Cask
 
 マウスやトラックバッドのジェスチャ拡張ほか。Winの「Aero Snap」のような機能の設定もある。
@@ -339,6 +351,23 @@ $ cask install evernote
 
 ---
 
+## Fantastical 2.app @ Cask
+
+カレンダーアプリ。
+
+- Googleカレンダー連動
+- 表示するカレンダーセット作れる
+- 表示優先度をドラッグで調整
+- カスタムカラーつくれる
+- 他アプリ -> Fantastical のインテグ多い
+- TODOと統合されている。そしてTODOはデフォルトの `リマインダー.app` つかえる
+
+```
+$ cask install Fantastical
+```
+
+---
+
 ## Firefox.app @ Cask
 
 > http://www.mozilla.jp/firefox/
@@ -467,14 +496,18 @@ $ cask install google-japanese-ime
 
 ---
 
-## [Deprecated] HyperSwitch.app @ Cask
+## HyperSwitch.app @ Cask
 
 Command + tabのアプリ切り替え時にそのアプリのウインドウも表示
 > http://bahoom.com/hyperswitch/
 
+### 設定
+​​
+- `⌥option`​ + `tab`​ : すべてのウインドウで切り替え
+​​- `⌃control`​ + `tab`​ : カレントアプリのウインドウ切り替え
+
 ```
-# 起動時に/Applicationsに実体ないとダメと言われるので手動で入れる。
-# $ cask install hyperswitch
+$ cask install hyperswitch
 ```
 
 ---
@@ -490,12 +523,24 @@ Command + tabのアプリ切り替え時にそのアプリのウインドウも�
 
 
 ## ImageOptim.app @ Cask
+
 画像の圧縮/最適化
 > http://imageoptim.com
 
 ```
 $ cask install imageoptim
 ```
+
+---
+
+## InVisionSyn.app @ Web
+
+InVision用クライアント
+- `~/InVision` ディレクトリ生成される
+- ここにおいたファイルは保存時 `invisionapp.com` に自動同期される
+
+> https://www.invisionapp.com/
+
 
 ---
 
@@ -621,10 +666,9 @@ $ cask install mamp
 
 ## [Deprecated] Mou.app @ Cask
 
-Markdownエディタ。左にソース、右にプレビュー。
+Markdownエディタ。左にソース、右にプレビュー。  
+※ Sierra 対応してないぽい
 > http://mouapp.com
-
-
 
 ```
 # $ cask install mou
@@ -865,10 +909,12 @@ $ cask install textexpander
 
 ---
 
-## Timebar.app @ App Store
+## [Deprecated] Timebar.app @ App Store
 
 ポモドーロ用。いろいろ試したがコレが一番適度でよかった。AlfredやTerminalからもコマンドでタイマーセットできる。
 > https://itunes.apple.com/jp/app/timebar/id617829225?mt=12
+
+※ 配布終わってる
 
 ---
 
