@@ -1,0 +1,8 @@
+# editorconfig.org
+
+# .editorconfig設置ディレクトリ以上の.editorconfigを反映させないようroot明記
+root = true
+
+[*.md]
+# 行末のスペース削除しない
+trim_trailing_whitespace = false
