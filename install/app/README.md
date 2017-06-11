@@ -166,6 +166,17 @@ $ cask install atom
 
 ---
 
+## [Deprecated] Brackets @ Cask
+
+Adobe製エディタ。
+> http://brackets.io
+
+```
+# $ cask install brackets
+```
+
+---
+
 ## Be Focused.app @ AppStore
 
 ポモドーロタイマー。
@@ -189,13 +200,13 @@ $ cask install bettertouchtool
 
 ---
 
-## [Deprecated] Brackets @ Cask
+## Boostnote @ Cask
 
-Adobe製エディタ。
-> http://brackets.io
+コードスニペット。ハイライトあり。
+> https://boostnote.io/
 
 ```
-# $ cask install brackets
+$ cask install boostnote
 ```
 
 ---
@@ -586,6 +597,18 @@ $ cask install kindle
 
 チャット
 > https://itunes.apple.com/jp/app/line/id539883307?mt=12
+
+---
+
+## Linear.app @ Cask
+
+サイズ測定アプリ
+> http://linear.theuxshop.com
+
+```
+$ cask install linear
+```
+
 
 ---
 
