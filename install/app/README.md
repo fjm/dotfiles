@@ -664,6 +664,21 @@ $ cask install mamp
 
 ---
 
+## Mapture.app @ Cask
+
+MacOSX向けキャプチャユーティリティ
+- キャプチャしたものが最前面に表示される
+- 透明度の設定もできる
+- デザインデータと実装かさねて比較とか
+
+> http://anatoo.jp/mapture/
+
+```
+$ cask install mapture
+```
+
+---
+
 ## [Deprecated] Memory Magic.app @ App Store
 
 メニューバーからメモリの使用状況確認と開放
