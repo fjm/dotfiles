@@ -3,6 +3,16 @@
 Applications
 ==============================
 
+
+## ⌘英かな.app @ Web
+
+左右のコマンドキーを単体で押した時に英数/かなを切り替えるようにするアプリ  
+( karabiner代替 ) 
+
+> https://ei-kana.appspot.com/
+
+---
+
 ## Adobe製品
 
 生きるためのAdobe製品関連
@@ -900,6 +910,16 @@ git管理。普段はTower.appだけど人にgit使ってもらうとき用。
 
 ```
 $ cask install sourcetree
+```
+
+---
+
+## Spotify.app @ Cask
+
+> http://spotify.com
+
+```
+$ cask install spotify
 ```
 
 ---
