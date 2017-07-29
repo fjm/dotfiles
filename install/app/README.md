@@ -27,7 +27,7 @@ Applications
 - [ガイドラインや指示書の作成が楽になる！エレメントやマージンのサイズを書き出してくれるPhotoshopのスクリプト -Size Marks | コリス](http://coliss.com/articles/build-websites/operation/design/photoshop-script-size-marks.html)
 
 
-### Adobe Edge Inspect
+### [Deprecated] Adobe Edge Inspect
 
 iPadやiPhone、Androidならべてブラウザテストする
 
@@ -333,6 +333,14 @@ $ cask install dash
 
 ---
 
+## Docker.app @ Cask
+
+```
+$ cask install docker
+```
+
+---
+
 ## Dropbox.app @ Web
 
 ファイル共有
@@ -577,18 +585,24 @@ $ cask install istat-menus
 
 ---
 
-## [Deprecated] Karabiner.app @ Cask
+## Karabiner.app @ Cask
 
 キーボードカスタマイズツール
-旧KeyRemap4MacBook
-> https://pqrs.org/osx/karabiner/
+> https://github.com/tekezo/Karabiner-Elements
 
 ```
-# $ cask install karabiner
+$ cask install karabiner-elements
 ```
 
-- Delay Until Key Repeat : 300ms
-- key Repeat : 43ms
+
+> コマンドキーを単体で押したときに、英数・かなキーを送信する。（左コマンドキーは英数、右コマンドキーはかな）
+
+- https://pqrs.org/osx/karabiner/complex_modifications/ から「For Japanese （日本語環境向けの設定）」をインポート
+
+> capslock -> control のMac側の設定がきかなくなるので karabiner側で設定する
+
+- From key : `caps_lock` | To key : `left_control`
+
 
 ---
 
