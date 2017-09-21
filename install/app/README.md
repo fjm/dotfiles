@@ -135,6 +135,16 @@ Dropboxで同期するので各種設定不要
 
 ---
 
+## Amazon Music.app @ Cask
+
+> https://music.amazon.co.jp
+
+```
+$ cask install amazon-music
+```
+
+---
+
 ## AppCleaner.app @ Cask
 
 アプリ削除管理ツール
