@@ -343,6 +343,17 @@ $ cask install dash
 
 ---
 
+## Duet.app @ Cask
+
+iPadをサブモニタにするやつ
+> https://www.duetdisplay.com
+
+```
+$ cask install duet
+```
+
+---
+
 ## Docker.app @ Cask
 
 ```
