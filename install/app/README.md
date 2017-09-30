@@ -860,6 +860,13 @@ $ cask install sequel-pro
 
 ---
 
+## Shotty.app @ App Store
+
+Desktopのスクリーンショットをメニューバーにまとめる
+> https://www.jacobruiz.design/shotty
+
+---
+
 ## SiteSucker.app @ Cask
 
 サイトまるごとダウンロード
