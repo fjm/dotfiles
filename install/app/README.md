@@ -605,6 +605,14 @@ InVision用クライアント
 
 ---
 
+## Instant Translate.app @ Web
+
+メニューバーで翻訳
+> https://insttranslate.com/mac
+
+
+---
+
 ## iStat Menus.app @ Cask [有料]
 
 システムモニター。リソース確認のほか、カレンダーみたりファン回したり
