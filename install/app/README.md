@@ -197,6 +197,17 @@ Adobe製エディタ。
 
 ---
 
+## Backup and Sync.app @ Cask
+
+Googleドライブアプリ
+> https://www.google.com/drive/download/
+
+```
+$ cask install google-backup-and-sync
+```
+
+---
+
 ## Be Focused.app @ AppStore
 
 ポモドーロタイマー。
