@@ -3,16 +3,6 @@
 Applications
 ==============================
 
-
-## ⌘英かな.app @ Web
-
-左右のコマンドキーを単体で押した時に英数/かなを切り替えるようにするアプリ  
-( karabiner代替 ) 
-
-> https://ei-kana.appspot.com/
-
----
-
 ## Adobe製品
 
 生きるためのAdobe製品関連
@@ -605,7 +595,7 @@ InVision用クライアント
 
 ---
 
-## Instant Translate.app @ Web
+## Instant Translate.app @ Web [有料]
 
 メニューバーで翻訳
 > https://insttranslate.com/mac
