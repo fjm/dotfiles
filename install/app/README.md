@@ -570,12 +570,26 @@ $ cask install hyperswitch
 - Hybrid Markdown
 - ディレクトリツリー
 - 外部テキストのインクルード
+
 > https://ia.net/ja/writer
 
+---
+
+## IconJar.app @ Cask [有料]
+
+- アイコン画像の管理
+
+```
+$ cask install iconjar
+```
+
+
+---
 
 ## ImageOptim.app @ Cask
 
 画像の圧縮/最適化
+
 > http://imageoptim.com
 
 ```
