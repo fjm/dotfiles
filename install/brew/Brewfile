@@ -26,3 +26,5 @@ install terminal-notifier
 install mas
 install tree
 install convmv
+install awscli
+
