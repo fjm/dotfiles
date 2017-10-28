@@ -63,6 +63,11 @@ defaults write com.apple.notificationcenterui bannerTime 5
 # defaults delete com.apple.notificationcenterui bannerTime
 
 
+# マウスカーソルの速度あげる
+defaults write "Apple Global Domain" com.apple.mouse.scaling 5
+## default
+# defaults write "Apple Global Domain" com.apple.mouse.scaling 1.7
+
 
 killall Dock
 killall Finder
