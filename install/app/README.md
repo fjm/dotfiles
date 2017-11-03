@@ -1098,6 +1098,21 @@ $ cask install transmit
 $ cask install tuneinstructor
 ```
 
+
+---
+
+
+## Twist.app @ Cask
+
+スレッド型Slack
+
+> https://twistapp.com/
+
+```
+$ cask install twist
+```
+
+
 ---
 
 ## Vagrant @ Cask
