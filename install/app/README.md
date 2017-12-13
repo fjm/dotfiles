@@ -768,6 +768,14 @@ $ cask install mapture
 
 => subscription版に移行
 
+
+---
+
+## Mindnode.app @ App Store
+
+マインドマップ
+> https://mindnode.com
+
 ---
 
 ## [Deprecated] Mou.app @ Cask
