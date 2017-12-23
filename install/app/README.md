@@ -807,6 +807,8 @@ $ cask install omnifocus
 TotalFinder / XtraFinderとか使ってみたが最終的にコレ。
 > http://cocoatech.com/pathfinder/
 
+- 2017-12-23 - DropboxのSmartSyncに対応してない..ので `Finder.app` にもどる
+
 ```
 $ cask install path-finder
 ```
