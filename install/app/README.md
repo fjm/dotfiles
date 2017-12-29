@@ -810,7 +810,7 @@ TotalFinder / XtraFinderとか使ってみたが最終的にコレ。
 - 2017-12-23 - DropboxのSmartSyncに対応してない..ので `Finder.app` にもどる
 
 ```
-$ cask install path-finder
+# $ cask install path-finder
 ```
 
 ---
@@ -999,9 +999,21 @@ $ cask install spotify
 
 ---
 
-## Sublime Text.app @ Cask
+## SpotMenu.app @ Cask
 
-メインエディタ。Vintage Modeで使っている。
+Spotify and iTunes in your macOS menu bar.
+> https://kmikiy.github.io/SpotMenu/
+
+```
+$ cask install spotmenu
+```
+
+---
+
+
+## [Deprecated] Sublime Text.app @ Cask
+
+メインエディタ。Vintage Modeで使っている。 -> 2017-12-30 Atomに乗り換え
 > http://www.sublimetext.com
 
 ### Preference
@@ -1010,7 +1022,7 @@ $ cask install spotify
 - Projectのマッピングは移行されないので手動で
 
 ```
-$ cask install sublime-text
+# $ cask install sublime-text
 ```
 
 ---
