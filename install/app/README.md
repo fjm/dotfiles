@@ -232,6 +232,17 @@ $ cask install boostnote
 
 ---
 
+## Brackets @ Cask
+
+Adobe製コードエディタ。他人に教える時用。
+> http://brackets.io
+
+```
+$ cask install brackets
+```
+
+---
+
 ## [Deprecated] Byword.app @ App Store
 
 Markdownエディタ。Write.appに乗り換えてほとんど使ってないが一応入れとく。
