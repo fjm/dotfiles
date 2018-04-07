@@ -720,6 +720,16 @@ $ cask install little-snitch
 
 ---
 
+## MacVim PRO @ Cask
+
+> https://github.com/macvim-dev/macvim
+
+```
+$ cask install macvim
+```
+
+---
+
 ## [Deprecated] MailgetGUID.app
 
 [Daring Fireball: 'message:' URLs in Leopard Mail](http://daringfireball.net/2007/12/message_urls_leopard_mail)のAppleScriptをアプリ化したもの。
