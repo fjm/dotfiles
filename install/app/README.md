@@ -799,6 +799,18 @@ $ cask install mapture
 
 ---
 
+## Monosnap.app @ App Store
+
+キャプチャツール
+
+- カーソルうつる
+- 注釈つけれる
+- gifアニできる
+
+> http://monosnap.com
+
+---
+
 ## [Deprecated] Mou.app @ Cask
 
 Markdownエディタ。左にソース、右にプレビュー。  
