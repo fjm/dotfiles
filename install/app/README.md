@@ -508,6 +508,11 @@ $ cask install google-chrome
 
 - Chrome上でGoogleログイン
 
+### Extension
+
+- [Create Link \- Chrome ウェブストア](https://chrome.google.com/webstore/detail/create-link/gcmghdmnkfdbncmnmlkkglmnnhagajbm/related)
+  - `Alt` + `C` で Markdown形式でタイトルとページURLをコピー
+
 ---
 
 ## Google Earth.app @ Cask
