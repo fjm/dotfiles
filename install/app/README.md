@@ -816,6 +816,19 @@ $ cask install mapture
 
 ---
 
+## Notion.app @ Web
+
+メモサービス
+
+> https://www.notion.so
+
+```
+$ cask install Notion
+```
+
+
+---
+
 ## [Deprecated] Mou.app @ Cask
 
 Markdownエディタ。左にソース、右にプレビュー。  
