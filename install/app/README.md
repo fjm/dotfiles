@@ -3,9 +3,27 @@
 Applications
 ==============================
 
-## Adobe製品
+## 1Password @ Web
 
-生きるためのAdobe製品関連
+パスワード管理
+
+```
+$ cask install 1password
+```
+
+---
+
+## Adobe 
+
+### Adobe Acrobat
+
+### Adobe Creative Cloud
+
+### Adobe Extension Manager
+
+### Adobe Illustrator
+
+### Adobe Media Encoder
 
 ### Adobe Photoshop
 
@@ -16,24 +34,8 @@ Applications
 - [サイト作るときに便利なPhotoShop JSX、ショートカット、アクション](http://develo.org/2010/06/10/0154.html)
 - [ガイドラインや指示書の作成が楽になる！エレメントやマージンのサイズを書き出してくれるPhotoshopのスクリプト -Size Marks | コリス](http://coliss.com/articles/build-websites/operation/design/photoshop-script-size-marks.html)
 
+### Adobe XD
 
-### [Deprecated] Adobe Edge Inspect
-
-iPadやiPhone、Androidならべてブラウザテストする
-
-> http://html.adobe.com/jp/edge/inspect/
-
----
-
-## [Deprecated] Air Display Host.app @ Cask
-
-iPad / iPhoneを外部モニタ化。iPad miniをサブディスプレイとして持ち歩くのちょうどいい。
-
-> http://www.avatron.com/applications/air-display/
-
-```
-# $ cask install airdisplay
-```
 
 ---
 
@@ -48,17 +50,10 @@ iPad / iPhoneを外部モニタ化。iPad miniをサブディスプレイとし�
 
 > http://airmailapp.com
 
----
-
-## [Deprecated] AirServer @ Cask [有料]
-
-MacとiOSデバイス間でAirPlay。
-
-> http://www.airserver.com
-
 ```
-# $ cask install airserver
+$ mas install "Airmail 3", id: 918858936
 ```
+
 
 ---
 
@@ -182,7 +177,7 @@ Adobe製エディタ。
 > http://brackets.io
 
 ```
-# $ cask install brackets
+$ cask install brackets
 ```
 
 ---
@@ -208,6 +203,10 @@ $ cask install google-backup-and-sync
 
 - `⌘command` + `⇧shift` + `R` : タイマー開始 / タイマー停止
 
+```
+$ mas install 973134470
+```
+
 ---
 
 ## BetterTouchTool.app @ Cask
@@ -221,17 +220,6 @@ $ cask install bettertouchtool
 
 ---
 
-## Boostnote @ Cask
-
-コードスニペット。ハイライトあり。
-> https://boostnote.io/
-
-```
-$ cask install boostnote
-```
-
----
-
 ## Brackets @ Cask
 
 Adobe製コードエディタ。他人に教える時用。
@@ -239,37 +227,6 @@ Adobe製コードエディタ。他人に教える時用。
 
 ```
 $ cask install brackets
-```
-
----
-
-## [Deprecated] Byword.app @ App Store
-
-Markdownエディタ。Write.appに乗り換えてほとんど使ってないが一応入れとく。
-> https://itunes.apple.com/app/byword/id420212497?mt=12
-
----
-
-## [Deprecated] Caffeine.app @ Cask
-
-起動中はスタンバイさせないためのアプリ。メニューバーでON/OFF
-> http://lightheadsw.com/caffeine/
-
-```
-# $ cask install caffeine
-```
-
----
-
-## [Deprecated] CakeBrew.app @ Cask
-
-![](https://www.cakebrew.com/assets/img/app-bg.png)
-
-HomebrewをGUIで管理
-> https://www.cakebrew.com
-
-```
-# $ cask install cakebrew
 ```
 
 ---
@@ -296,6 +253,10 @@ $ sudo ln -s ~/Applications/calibre.app/Contents/console.app/Contents/MacOS/eboo
 プロキシツール。
 > http://www.charlesproxy.com
 
+```
+$ cask install charles
+```
+
 ---
 
 ## CheatSheet.app @ Cask
@@ -308,28 +269,14 @@ $ cask install cheatsheet
 
 ---
 
-## [Deprecated] Coda 2.app @ App Store
-
-エディタ。使ってない。
-> https://itunes.apple.com/jp/app/coda-2/id499340368?mt=12
-
----
-
-## [Deprecated] CodeKit.app @ Cask [有料]
-
-GUIでCoffeeScript/SCSS等のコンパイル
-> http://incident57.com/codekit/
-
-```
-# $ cask install codekit
-```
-
----
-
 ## CotEditor.app @ App Store
 
 軽量エディタ。
 > https://itunes.apple.com/jp/app/coteditor/id1024640650?mt=12
+
+```
+$ mas install 1024640650
+```
 
 ---
 
@@ -385,23 +332,6 @@ $ cask install docker
 
 ---
 
-## EasySIMBL.app @ Cask
-
-SIMBL管理、SafariStand用
-> https://github.com/norio-nomura/EasySIMBL/
-
-```
-$ cask install easysimbl
-```
-
----
-
-## [Deprecated] Echofon.app @ App Store
-
-Twitterクライアント
-> https://itunes.apple.com/jp/app/echofon-lite-for-twitter/id403858460?mt=12
-
-
 ## Evernote.app @ Cask
 
 メモ管理
@@ -440,20 +370,6 @@ $ cask install firefox
 
 ---
 
-## [Deprecated] Franz.app @ Cask
-
-SlackやFacebookメッセンジャーなどチャット系アプリまとめる
-> http://meetfranz.como
-
-=> Waveboxに乗り換え
-
-
-```
-# $ cask install franz
-```
-
----
-
 ## Genymotion
 
 Android環境エミュレート
@@ -471,17 +387,6 @@ $ cask install genymotion
 
 ```
 $ cask install github-desktop
-```
-
----
-
-## [Deprecated] Gitter.app @ Cask
-
-チャット
-> https://gitter.im
-
-```
-# $ cask install gitter
 ```
 
 ---
@@ -545,24 +450,6 @@ $ cask install google-japanese-ime
 
 ---
 
-## [Deprecated] Growl.app @ App Store
-
-通知
-> https://itunes.apple.com/jp/app/growl/id467939042?mt=12
-
----
-
-## [Deprecated] HipChat.app @ Cask
-
-チャット
-> https://www.hipchat.com/downloads
-
-```
-# $ cask install hipchat
-```
-
----
-
 ## HyperSwitch.app @ Cask
 
 Command + tabのアプリ切り替え時にそのアプリのウインドウも表示
@@ -588,6 +475,11 @@ $ cask install hyperswitch
 - 外部テキストのインクルード
 
 > https://ia.net/ja/writer
+
+```
+$ mas install 775737590
+```
+
 
 ---
 
@@ -682,6 +574,10 @@ $ cask install kindle
 チャット
 > https://itunes.apple.com/jp/app/line/id539883307?mt=12
 
+```
+$ mas install 539883307
+```
+
 ---
 
 ## Linear.app @ Cask
@@ -718,13 +614,6 @@ $ cask install little-snitch
 
 ---
 
-## [Deprecated] LittleSnapper.app
-
-キャプチャ管理。今は、[Ember](http://realmacsoftware.com/ember)ってアプリに名前かわってるぽい。
-> http://www.macupdate.com/app/mac/29991/littlesnapper
-
----
-
 ## MacVim PRO @ Cask
 
 > https://github.com/macvim-dev/macvim
@@ -732,18 +621,6 @@ $ cask install little-snitch
 ```
 $ cask install macvim
 ```
-
----
-
-## [Deprecated] MailgetGUID.app
-
-[Daring Fireball: 'message:' URLs in Leopard Mail](http://daringfireball.net/2007/12/message_urls_leopard_mail)のAppleScriptをアプリ化したもの。
-
-1. Mail.appで、メッセージを選択
-2. Alfredでこのアプリ起動
-3. `message://〜`っていうURLスキームでカレントのメールを開くリンクがクリップボードにコピーされる
-
-このリンクをOmniFocus.appに貼ったりしてTODO管理したり。
 
 ---
 
@@ -773,13 +650,6 @@ $ cask install mapture
 
 ---
 
-## [Deprecated] Memory Magic.app @ App Store
-
-メニューバーからメモリの使用状況確認と開放
-> https://itunes.apple.com/jp/app/memory-magic/id574923230?mt=12
-
----
-
 ## Messages for Facebook.app
 
 チャット / Facebookのメッセンジャー専用
@@ -794,13 +664,16 @@ $ cask install mapture
 
 => subscription版に移行
 
-
 ---
 
 ## Mindnode.app @ App Store
 
 マインドマップ
 > https://mindnode.com
+
+```
+$ mas install 1289197285
+```
 
 ---
 
@@ -813,6 +686,11 @@ $ cask install mapture
 - gifアニできる
 
 > http://monosnap.com
+
+```
+$ mas install 540348655
+```
+
 
 ---
 
@@ -829,18 +707,6 @@ $ cask install Notion
 
 ---
 
-## [Deprecated] Mou.app @ Cask
-
-Markdownエディタ。左にソース、右にプレビュー。  
-※ Sierra 対応してないぽい
-> http://mouapp.com
-
-```
-# $ cask install mou
-```
-
----
-
 ## [Deprecated] OmniFocus.app @ Cask
 
 TODO管理。今は使ってない。
@@ -848,20 +714,6 @@ TODO管理。今は使ってない。
 
 ```
 $ cask install omnifocus
-```
-
----
-
-## Path Finder.app @ Cask [有料]
-
-ファイルマネージャ。Finderの代わりに。
-TotalFinder / XtraFinderとか使ってみたが最終的にコレ。
-> http://cocoatech.com/pathfinder/
-
-- 2017-12-23 - DropboxのSmartSyncに対応してない..ので `Finder.app` にもどる
-
-```
-# $ cask install path-finder
 ```
 
 ---
@@ -885,12 +737,9 @@ $ cask install paw
 > https://itunes.apple.com/jp/app/popclip/id445189367?mt=12
 > http://pilotmoon.com/popclip/extensions/
 
----
-
-## QuickRes.app
-
-解像度変更アプリ
-> http://www.quickresapp.com
+```
+$ mas install 445189367
+```
 
 ---
 
@@ -938,6 +787,10 @@ $ cask install sequel-pro
 Desktopのスクリーンショットをメニューバーにまとめる
 > https://www.jacobruiz.design/shotty
 
+```
+$ mas install 1250306151
+```
+
 ---
 
 ## SiteSucker.app @ Cask
@@ -947,17 +800,6 @@ Desktopのスクリーンショットをメニューバーにまとめる
 
 ```
 $ cask install sitesucker
-```
-
----
-
-# Skitch.app @ Cask
-
-画像注釈ツール
-> http://evernote.com/intl/jp/skitch/
-
-```
-$ cask install skitch
 ```
 
 ---
@@ -997,23 +839,12 @@ $ cask install skype
 
 ---
 
-## Slack.app @ App Store
+## Slack.app @ Casl
 
 チャット
 
-> https://itunes.apple.com/jp/app/slack/id803453959?mt=12
-
----
-
-## [Deprecated] Slicy.app @ Cask
-
-PSDから画像スライス。レイヤー名が画像ファイル名に。
-psdの変更監視もしてくれる。
-Photoshopの画像アセット使うようになって使用してない
-> http://macrabbit.com/slicy/
-
 ```
-$ cask install slicy
+$ cask install slack
 ```
 
 ---
@@ -1050,21 +881,9 @@ $ cask install spotify
 
 ---
 
-## SpotMenu.app @ Cask
+## Sublime Text.app @ Cask
 
-Spotify and iTunes in your macOS menu bar.
-> https://kmikiy.github.io/SpotMenu/
-
-```
-$ cask install spotmenu
-```
-
----
-
-
-## [Deprecated] Sublime Text.app @ Cask
-
-メインエディタ。Vintage Modeで使っている。 -> 2017-12-30 Atomに乗り換え
+メインエディタ。Vintage Modeで使っている。 
 > http://www.sublimetext.com
 
 ### Preference
@@ -1073,27 +892,7 @@ $ cask install spotmenu
 - Projectのマッピングは移行されないので手動で
 
 ```
-# $ cask install sublime-text
-```
-
----
-
-## [Deprecated] TechTool Pro.app @ Web
-
-メンテナンスツール。
-アプリのバンドル販売についてた。自分のはVersion 6。
-> http://www.act2.com/brand/ttp7
-
----
-
-## [Deprecated] TextExpander.app @ Cask
-
-アプリまたいでテキストスニペット管理。メールの例文もプログラムのスニペットもコマンドもここで管理。
-=> Dash.app に乗り換えた
-> https://smilesoftware.com/TextExpander/
-
-```
-$ cask install textexpander
+$ cask install sublime-text
 ```
 
 ---
@@ -1103,14 +902,9 @@ $ cask install textexpander
 解凍する。
 > https://itunes.apple.com/jp/app/the-unarchiver/id425424353?mt=12
 
----
-
-## [Deprecated] Timebar.app @ App Store
-
-ポモドーロ用。いろいろ試したがコレが一番適度でよかった。AlfredやTerminalからもコマンドでタイマーセットできる。
-> https://itunes.apple.com/jp/app/timebar/id617829225?mt=12
-
-※ 配布終わってる
+```
+$ mas install 425424353
+```
 
 ---
 
@@ -1122,14 +916,6 @@ $ cask install textexpander
 ```
 $ cask install tower
 ```
-
-### Preference
-```
-/Users/fjm/Library/Application Support/com.fournova.Tower2/bookmarks-v2.plist
-```
-2016/12/14時点で上記それっぽいファイル移動してもブクマコピーされない。
-- マシン内の`.gif`一括取得
-- githubとコネクトして適宜ダウンロードで取得
 
 ---
 
@@ -1158,35 +944,13 @@ $ cask install transmit
 
 > http://www.topoftree.jp/tree/
 
----
-
-
-## Tune•Instructor.app @ Cask
-
-メニューバーからiTunes操作。
-
-> http://www.tune-instructor.com/com/
 
 ```
-$ cask install tuneinstructor
+$ mas install 944654199
 ```
-
 
 ---
 
-
-## Twist.app @ Cask
-
-スレッド型Slack
-
-> https://twistapp.com/
-
-```
-$ cask install twist
-```
-
-
----
 
 ## Vagrant @ Cask
 
@@ -1238,16 +1002,8 @@ $ vagrant sandbox rollback
 
 > https://itunes.apple.com/jp/app/twitter/id409789998?mt=12
 
----
-
-## [Deprecated] Versions.app @ Cask
-
-SVNクライアント。使うときに入れる
-
-> http://versionsapp.com
-
 ```
-$ cask install versions
+$ mas install 409789998
 ```
 
 ---
@@ -1274,15 +1030,6 @@ $ cask install vlc
 
 ----
 
-## VMWare Fusion.app @ Web
-
-VMの管理。Windows & 旧バージョンのMac入れて確認環境に。modern.IE からひと通りVM落とす。
-
-> https://www.vmware.com/jp/products/fusion/
-> https://modern.ie/ja-jp/virtualization-tools#downloads
-
----
-
 ## WebArchive Extractor.app @ Web
 
 Safariなんかでページを保存する際の`.webarchive`の展開。CSSの`background-image`指定なんかの画像も抽出できる。
@@ -1297,24 +1044,10 @@ Safariなんかでページを保存する際の`.webarchive`の展開。CSSの`
 
 > https://itunes.apple.com/jp/app/winarchiver-lite/id414855915?mt=12
 
----
+```
+$ mas install 414855915
+```
 
-## [Deprecated] Write.app @ App Store
-
-メモアプリとして。
-
-1. Atok Pad
-2. メモ.app
-3. Evernoteのクイックノート
-4. Adobe Brackets
-
-という変遷を経て最近リリースされたこのWrite.appに今は落ち着いている。
-Markdownとプレインテキストのハイブリッドな表示スタイルができる。
-保存先はDropbox。
-
-> https://itunes.apple.com/jp/app/write-beautiful-markdown-note/id848311469?mt=12
-
-=> iA Writer.app に乗り換え ( 2016-11-22 )
 
 ---
 
@@ -1324,23 +1057,16 @@ Markdownとプレインテキストのハイブリッドな表示スタイルが
 
 > https://itunes.apple.com/app/wunderlist-to-do-list-tasks/id410628904
 
+```
+$ mas install 410628904
+```
+
+
 ---
 
 ## カレンダー.app
 
 Googleカレンダー紐付けておくと**OmniFocus.app**のForcastに予定でる。
-
----
-
-## [Deprecated] メール.app
-
-メインのメールクライアント。
-
-### [Deprecated] LetterFix for Mac OS X Mail.app
-
-文字化けメールの発生を防ぐ
-
-> http://sourceforge.jp/projects/letter-fix/
 
 
 
@@ -1354,34 +1080,6 @@ Preference
 ```
 $ cask install flash-player
 ```
-
----
-
-## teleport @ Cask
-複数台のMacでマウスとキーボードを共有。ファイルの移動もできる。
-> http://abyssoft.com/software/teleport/
-
-```
-$ cask install teleport
-```
-
----
-
-## [Deprecated] Java @ Cask
-
-```
-$ cask install java
-```
-
----
-
-## [Deprecated] Chef @ Cask
-
-```
-$ cask install chefDk
-```
-
----
 
 
 Widget
