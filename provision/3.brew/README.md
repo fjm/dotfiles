@@ -1,6 +1,8 @@
 # homebrew
 
-## brew bundle
+## bundle
+
+- `~/Brewfile` の内容をインストールする
 
 ```bash
 # backup `Brewfile`

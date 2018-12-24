@@ -5,14 +5,13 @@
 set -e
 
 # OSX defaults
-chmod +x setuposx/set-defaults.sh && sh osx/set-defaults.sh
+chmod +x 1.osx/set-defaults.sh && sh 1.osx/set-defaults.sh
 
 # Install
-INSTALL_DIRS=("brew" "app" "gem" "npm")
-
+INSTALL_DIRS=("3.brew" "6.gem")
 
 for dir in ${INSTALL_DIRS[@]}; do
-  cd $DOTFILES/setup/${dir}
+  cd $DOTFILES/provision/${dir}
 
   echo "Installing" ${dir}
 

@@ -2,7 +2,7 @@
 # osx settings
 
 
-# $ chmod +x set-defaults.sh && sh set-defaults.sh
+# chmod +x set-defaults.sh && sh set-defaults.sh
 
 
 # Show ~/Library
