@@ -1,5 +1,6 @@
 # Macの初期設定
 
+## 1.
 
 ## 1. githubに接続できるようにする
 
@@ -8,7 +9,6 @@
 
 ## 2. OS Update
 App StoreからOSアップデートをかける
-
 
 
 ## 3. Install Xcode.app

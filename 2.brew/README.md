@@ -4,7 +4,7 @@
 
 ```bash
 # backup `Brewfile`
-brew bundle dump
+brew bundle dump --force --describe
 
 # install `Brewfile`
 brew bundle
