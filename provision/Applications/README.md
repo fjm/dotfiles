@@ -17,7 +17,6 @@ $ cask install 1password
 
 [Creative Cloud Desktop App](https://creative.adobe.com/ja/products/download/creative-cloud) をインストール
 
-
 ### Adobe Acrobat
 
 ### Adobe Creative Cloud
@@ -54,7 +53,7 @@ $ cask install 1password
 > http://airmailapp.com
 
 ```
-$ mas install "Airmail 3", id: 918858936
+$ brew mas install 918858936
 ```
 
 
