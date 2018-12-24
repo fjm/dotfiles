@@ -13,7 +13,10 @@ $ cask install 1password
 
 ---
 
-## Adobe 
+## Adobe
+
+[Creative Cloud Desktop App](https://creative.adobe.com/ja/products/download/creative-cloud) をインストール
+
 
 ### Adobe Acrobat
 
@@ -883,7 +886,7 @@ $ cask install spotify
 
 ## Sublime Text.app @ Cask
 
-メインエディタ。Vintage Modeで使っている。 
+メインエディタ。Vintage Modeで使っている。
 > http://www.sublimetext.com
 
 ### Preference
