@@ -173,7 +173,7 @@ $ cask install atom
 
 ---
 
-## [Deprecated] Brackets @ Cask
+## Brackets @ Cask
 
 Adobe製エディタ。
 > http://brackets.io
@@ -323,13 +323,13 @@ $ cask install docker
 
 ---
 
-## Dropbox.app @ Web
+## Dropbox.app @ Cask
 
 ファイル共有
 > https://www.dropbox.com/
 
 ```
-# $ cask install dropbox
+$ cask install dropbox
 ```
 
 ---
@@ -372,23 +372,12 @@ $ cask install firefox
 
 ---
 
-## Genymotion
-
-Android環境エミュレート
-> https://www.genymotion.com
-
-```
-$ cask install genymotion
-```
-
----
-
 ## GitHub.app @ Cask
 
-> http://mac.github.com/
+> https://desktop.github.com/
 
 ```
-$ cask install github-desktop
+$ cask install github
 ```
 
 ---
@@ -422,33 +411,10 @@ $ cask install google-chrome
 
 ---
 
-## Google Earth.app @ Cask
-
-> http://www.google.co.jp/intl/ja/earth/
-
-```
-$ cask install google-earth
-```
-
----
-
-## Google Drive.app @ Cask
-
-> http://www.google.com/intl/ja/drive/download/
-
-```
-$ cask install google-drive
-```
-
----
-
-## Google 日本語入力 @ Cask
+## Google 日本語入力 @ Web
 
 > http://www.google.co.jp/ime/
 
-```
-$ cask install google-japanese-ime
-```
 
 ---
 
@@ -482,18 +448,6 @@ $ cask install hyperswitch
 $ mas install 775737590
 ```
 
-
----
-
-## IconJar.app @ Cask [有料]
-
-- アイコン画像の管理
-
-```
-$ cask install iconjar
-```
-
-
 ---
 
 ## ImageOptim.app @ Cask
@@ -516,15 +470,6 @@ InVision用クライアント
 
 > https://www.invisionapp.com/
 
-
----
-
-## Instant Translate.app @ Web [有料]
-
-メニューバーで翻訳
-> https://insttranslate.com/mac
-
-
 ---
 
 ## iStat Menus.app @ Cask [有料]
@@ -539,7 +484,7 @@ $ cask install istat-menus
 
 ---
 
-## Karabiner.app @ Cask
+## Karabiner-Elements.app @ Cask
 
 キーボードカスタマイズツール
 > https://github.com/tekezo/Karabiner-Elements
@@ -547,7 +492,6 @@ $ cask install istat-menus
 ```
 $ cask install karabiner-elements
 ```
-
 
 > コマンドキーを単体で押したときに、英数・かなキーを送信する。（左コマンドキーは英数、右コマンドキーはかな）
 
@@ -605,27 +549,6 @@ $ cask install linein
 
 ---
 
-## Little Snitch @ Cask [有料]
-
-ファイアウォール。うざいぐらい確認でるがそこがいい。
-> http://www.obdev.at/products/littlesnitch/index.html
-
-```
-$ cask install little-snitch
-```
-
----
-
-## MacVim PRO @ Cask
-
-> https://github.com/macvim-dev/macvim
-
-```
-$ cask install macvim
-```
-
----
-
 ## MAMP PRO @ Cask
 
 ローカル環境
@@ -655,7 +578,10 @@ $ cask install mapture
 ## Messages for Facebook.app
 
 チャット / Facebookのメッセンジャー専用
-なんかもうDLリンク存在してないが使ってる。
+
+```
+$ mas install 604009912
+```
 
 ---
 
@@ -709,7 +635,7 @@ $ cask install Notion
 
 ---
 
-## [Deprecated] OmniFocus.app @ Cask
+## OmniFocus.app @ Cask
 
 TODO管理。今は使ってない。
 > https://www.omnigroup.com/omnifocus
@@ -741,17 +667,6 @@ $ cask install paw
 
 ```
 $ mas install 445189367
-```
-
----
-
-## Ripit.app @ Cask
-
-DVDのリッピング
-> http://thelittleappfactory.com/ripit/
-
-```
-$ cask install ripit
 ```
 
 ---
@@ -795,28 +710,6 @@ $ mas install 1250306151
 
 ---
 
-## SiteSucker.app @ Cask
-
-サイトまるごとダウンロード
-> http://www.sitesucker.us/mac/mac.html
-
-```
-$ cask install sitesucker
-```
-
----
-
-## Skim.app @ Cask
-
-PDFビュアー。目次とか注釈見やすいのでPDFで技術書読む時など。
-> http://skim-app.sourceforge.net
-
-```
-$ cask install skim
-```
-
----
-
 ## Sketch.app @ Cask
 
 デザインツール
@@ -851,14 +744,10 @@ $ cask install slack
 
 ---
 
-## Soundflower @ Cask
+## Soundflower @ Web
 
 音声を仮想オーディオへ出力。
 > http://cycling74.com/products/soundflower/
-
-```
-$ cask install soundflower
-```
 
 ---
 
@@ -940,16 +829,12 @@ $ cask install transmit
 
 ---
 
-## Tree.app @ Web [有料]
+## Tree.app @ Local
 
 アウトランプロセッサ。全体が見渡せるのでサイトマップつくったり考えまとめたり。章立てが必要な長文書く時なんかも使う。
+* もう配布終了してる
 
 > http://www.topoftree.jp/tree/
-
-
-```
-$ mas install 944654199
-```
 
 ---
 
@@ -1010,13 +895,19 @@ $ mas install 409789998
 
 ---
 
-## VirtualBox.app @ Cask
+## VirtualBox.app @ Web
 
 VM (Virtual Machine)の管理
 > https://www.virtualbox.org
 
+- VMは、`~/VirtualBox VMs/`
+
+---
+
+## Visual Studio Code.app @ Cask
+
 ```
-$ cask install virtualbox
+$ cask install visual-studio-code
 ```
 
 ----
