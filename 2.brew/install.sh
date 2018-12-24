@@ -2,6 +2,14 @@
 
 # $ chmod +x install.sh && sh install.sh
 
+set -e
+
+# Check for Homebrew & install
+if test ! $(which brew)
+then
+  echo "Installing Homebrew."
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
 
 # latest Homebrew
 brew update
@@ -16,4 +24,3 @@ brew bundle
 
 
 brew cleanup
-
