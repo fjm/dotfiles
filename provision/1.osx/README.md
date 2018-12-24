@@ -82,3 +82,8 @@
 - すべての拡張子を表示
 - グリッド間隔最大
 - 表示オプション > 項目の情報を表示
+
+
+## 参考
+
+- [iMac/MacBook購入後に必ず設定したい設定項目 - Qiita](https://qiita.com/ryuichi1208/items/5905240f3bfce793b33d)
