@@ -6,7 +6,7 @@ set -e
 
 # 1. OSX defaults
 # ==============================
-chmod +x macos-defaults.sh && sh mac-defaults.sh
+chmod +x macos-defaults/defaults.sh && sh macos-defaults/defaults.sh
 
 # 2. brew
 # ==============================

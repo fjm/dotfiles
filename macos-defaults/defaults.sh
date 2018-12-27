@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # osx settings
 
-# chmod +x set-defaults.sh && sh set-defaults.sh
+# chmod +x defaults.sh && sh defaults.sh
 
 # General
 # ------------------------------
