@@ -1,106 +1,87 @@
-# Macの初期設定
+# Mac Settings
 
-## 1.
+## Old
 
-## 1. githubに接続できるようにする
+### Update `Brewfile`
 
-旧環境の`~/.ssh` から鍵を移動
+```bash
+# update Brewfile
+$ brew bundle dump --force --describe --file=/Users/fjm/git/fjm/dotfiles/Brewfile
 
-
-## 2. OS Update
-App StoreからOSアップデートをかける
-
-
-## 3. Install Xcode.app
-
-1. App StoreでXcodeをダウンロード
-2. App Store経由でインストールしたアプリのインストール
-3. Command Line Toolsいれる
-
-
-
-## 4. gitからこのdotfilesリポジトリを取得
-
-
-
-## 5. `.bash_profile` の設定
-
-`~/` にこのリポジトリの`.bash_profile`へのエイリアスを設定する、ということ。
-
-```
-$ export DOTFILES=$HOME/Dropbox/dotfiles
-```
-の `$HOME/Dropbox/dotfiles` の部分をリポジトリのパスにあわせて書き換える
-※上記の場合はDropboxのルートに **3** のリポジトリがあるものとする
-
-```
-$ ln -s ~/Dropbox/dotfiles/.bash_profile ~/.bash_profile
-$ source .bash_profile
-```
-を実行。
-
-
-## 6. `init.sh`を実行
-
-```
-$ chmod +x init.sh && $ sh init.sh
+$ cd ~/git/fjm/dotfiles
+$ git add . && git commit -m "update Brewfile" && git push
 ```
 
-で、以下の`~.sh`が順に実行される。
+### Update `Mackup`
 
-1. `osx/set-defaults.sh`     : osxのデフォルト設定
-2. `private/symbolic.sh`     : アプリ用のシンボリックリンク設定（自分用）
-3. `install/brew/install.sh` : brew関連
-4. `install/app/install.sh`  : cask関連 = アプリのインストール
-5. `install/gem/install.sh`  : gem関連
-6. `install/npm/install.sh`  : npm関連
+```bash
+$ mackup uninstall
+$ rm -rf ~/git/fjm/dotfiles/Mackup
+$ mackup backup
+$ git add . && git commit -m "update Mackup" && git push
+```
 
+### Copy
+- `~/.ssh/`
+- `~/git/`
+- `~/VirtualBox VMs/`
+- `~/Music/`
 
+### Backup
+- `~/Library/`
+- `/etc/hosts`
 
-
-## その他手作業
-
-
-### Fontのインストール
-
-- Rictyいれる
-
-
-### 旧Macから必要な設定ファイルをコピー
-
-- ~/Library/Application Support/Path Finder
-- ~/Library/Services/
-- ~/Library/Safari/Extentions/
-- ~/Library/QuickLook/
-
-あたり。
+### etc
+- アプリのアクティベーションをOFF
+    - iTunes
+    - Adobe
 
 
-###  キーチェーンの確認
+## New
 
-- ネットワークのパスワードなど必要そうなものを控えておく
+### xcode
 
+```bash
+$ xcode-select --install
+```
 
-### その後
+### github
 
-あとはひたすらアプリ立ち上げまわってライセンス登録や初期設定すます。
+> Permission denied (publickey).
+> fatal: Could not read from remote repository.
 
-- Dropbox
-- Evernote
-- Mail
-- VMイメージのDL / コピー
+```bash
+$ ssh -vT git@github.com
+```
 
-が超絶時間かかるので先にすませる
+### `init.sh`
 
-以上
+- osx default
+- Homebrew bundle install
+- Gem bundle install
 
-------------------------------
+```bash
+$ mkdir ~/git/fjm && cd ~/git/fjm
+$ git clone git@github.com:fjm/dotfiles.git
+$ cd dotfiles
 
-参考
+$ chmod +x init.sh && sh init.sh
+```
 
-- [thiagopnts/dotfiles](https://github.com/thiagopnts/dotfiles)
-  - BrewfileとCaskfileにわける
-- [dotfiles/homebrew/install.sh at master · pangratz/dotfiles](https://github.com/pangratz/dotfiles/blob/master/homebrew/install.sh)
-  - install.shを用意してHomeBrewのインストールからBrewfile / Caskfileの実行までワンセット
-- [Homebrew Caskのアップデート等 - rcmdnk's blog](http://rcmdnk.github.io/blog/2014/05/13/computer-mac-homebrew/)
-  - Caskに対応しているアプリを調べる
+### Mackup - [lra/mackup: Keep your application settings in sync (OS X/Linux)](https://github.com/lra/mackup)
+
+```
+$ cp ~/git/fjm/dotfiles/Mackup/.mackup.cfg ~/.mackup.cfg
+$ mackup restore
+```
+
+### nodebrew
+
+```bash
+$ mkdir ~/.nodebrew
+$ mkdir ~/.nodebrew/src
+$ nodebrew ls-remote
+$ nodebrew install-binary v.xxx
+$ nodebrew list
+$ nodeberw use v.xxxx
+```

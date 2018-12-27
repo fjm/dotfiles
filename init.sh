@@ -4,19 +4,37 @@
 
 set -e
 
-# OSX defaults
-chmod +x 1.osx/set-defaults.sh && sh 1.osx/set-defaults.sh
+# 1. OSX defaults
+# ==============================
+chmod +x macos-defaults.sh && sh mac-defaults.sh
 
-# Install
-INSTALL_DIRS=("3.brew" "6.gem")
+# 2. brew
+# ==============================
+# Check for Homebrew & install
+if test ! $(which brew)
+then
+  echo "Installing Homebrew."
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
 
-for dir in ${INSTALL_DIRS[@]}; do
-  cd $DOTFILES/provision/${dir}
+# latest Homebrew
+brew update
 
-  echo "Installing" ${dir}
+# Upgrade any already-installed formulae
+brew upgrade
 
-  while read line
-    do sh -c "${line}"
-  done < install.sh
+# Install homebrew packages from Brewfile
+brew bundle
 
-done
+brew cleanup
+
+# 3. Gem
+# ==============================
+# Check for bundler & install
+if test ! $(which bundler)
+then
+  echo "Installing bundler."
+  sudo gem install bundler
+fi
+
+bundle install

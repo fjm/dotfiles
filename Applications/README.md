@@ -1,6 +1,4 @@
-
-
-Applications
+# Applications
 ==============================
 
 ## 1Password @ Web
@@ -60,16 +58,13 @@ $ brew mas install 918858936
 ---
 
 ## Alfred.app @ Cask [有料]
+
 ランチャー + 検索
 > http://www.alfredapp.com
 
 ```
 $ cask install alfred
 ```
-
-### Preference
-
-Dropboxで同期するので各種設定不要
 
 ###  Custom Searches
 
@@ -164,12 +159,6 @@ $ cask install atom
 - 選択したファイルをまとめて1つのPDFファイルに
 - 選択した画像ファイルをサーバにアップしてMarkdown書式でクリップボードに返す
 - 対話型ファイルのリネーム
-
-#### Services 保存先
-
-```bash
-~/Dropbox/_sync/Applications/COPY/Services
-```
 
 ---
 
