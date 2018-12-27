@@ -17,12 +17,15 @@ engine = icloud
 
 
 ```
-# Mackup対象一覧
-mackup list
-
-# backup
+# Backup your application settings.
 mackup backup
 
-# restore
+# Restore your application settings on a newly installed workstation.
 mackup restore
+
+# Copy back any synced config file to its original place.
+mackup uninstall
+
+# Display the list of applications supported by Mackup.
+mackup list
 ```
