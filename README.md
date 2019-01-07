@@ -85,3 +85,15 @@ $ nodebrew install-binary v.xxx
 $ nodebrew list
 $ nodeberw use v.xxxx
 ```
+
+### ncu
+
+```bash
+$ npm install -g npm-check-updates
+```
+
+### vagrant hostsupdater
+
+```bash
+$ vagrant plugin install vagrant-hostsupdater
+```
