@@ -562,6 +562,16 @@ MacOSX向けキャプチャユーティリティ
 $ cask install mapture
 ```
 
+
+---
+
+## Mate Translate.app @ Web
+
+- 翻訳
+- 旧Instant Translate.app
+
+> https://www.matetranslate.com/
+
 ---
 
 ## Messages for Facebook.app
