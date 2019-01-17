@@ -37,6 +37,8 @@ brew "mysql"
 brew "nodebrew"
 # Manage compile and link flags for libraries
 brew "pkg-config"
+# Implementation of Telnet and SSH
+brew "putty"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
