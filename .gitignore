@@ -12,6 +12,7 @@ ehthumbs.db
 Desktop.ini
 *.sublime-project
 *.sublime-workspace
+*.code-workspace
 
 Gemfile.lock
 
