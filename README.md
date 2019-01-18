@@ -39,7 +39,7 @@ $ git add . && git commit -m "update Mackup" && git push
 
 ## New
 
-### xcode
+### Xcode
 
 ```bash
 $ xcode-select --install
@@ -97,3 +97,9 @@ $ npm install -g npm-check-updates
 ```bash
 $ vagrant plugin install vagrant-hostsupdater
 ```
+
+
+### VPN
+
+- Preference -> Network -> VPN
+
