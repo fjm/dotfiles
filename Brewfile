@@ -47,12 +47,16 @@ brew "rbenv"
 brew "s3cmd"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Extract, view, and test RAR archives
+brew "unrar"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Internet file retriever
 brew "wget"
 # JavaScript package manager
 brew "yarn"
+# General-purpose lossless data-compression library
+brew "zlib"
 # Font for programming
 brew "sanemat/font/ricty"
 cask "1password"
@@ -95,6 +99,7 @@ cask "slack"
 cask "sourcetree"
 cask "spotify"
 cask "sublime-text"
+cask "taskpaper"
 cask "tower"
 cask "transmit"
 cask "vagrant"
@@ -106,6 +111,7 @@ mas "AirSketch", id: 1286744480
 mas "Be Focused", id: 973134470
 mas "BetterSnapTool", id: 417375580
 mas "CotEditor", id: 1024640650
+mas "Focus", id: 777233759
 mas "GarageBand", id: 682658836
 mas "iA Writer", id: 775737590
 mas "iMovie", id: 408981434
