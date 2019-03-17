@@ -926,7 +926,7 @@ $ cask install vlc
 
 Safariなんかでページを保存する際の`.webarchive`の展開。CSSの`background-image`指定なんかの画像も抽出できる。
 
-> http://sourceforge.jp/projects/sfnet_webarchivext/
+> https://github.com/robrohan/WebArchiveExtractor
 
 ---
 
