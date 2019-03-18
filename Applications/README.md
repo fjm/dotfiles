@@ -670,6 +670,17 @@ $ mas install 445189367
 
 ---
 
+## RunJS.app @ Cask
+
+> A scratchpad for your thoughts, a playground for your creativity...
+> https://runjs.dev
+
+```
+$ cask install runjs
+```
+
+---
+
 ## Safari.app
 
 メインブラウザ
