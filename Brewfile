@@ -47,6 +47,8 @@ brew "rbenv"
 brew "s3cmd"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Command-line unarchiving tools supporting multiple formats
+brew "unar"
 # Extract, view, and test RAR archives
 brew "unrar"
 # Vi 'workalike' with many additional features
@@ -93,6 +95,7 @@ cask "notion"
 cask "omnifocus"
 cask "paw"
 cask "runjs"
+cask "safari-technology-preview"
 cask "sequel-pro"
 cask "sketch"
 cask "skype"

@@ -697,6 +697,16 @@ Safariの機能を強化するSIMBLプラグイン。ダウンロードファイ
 
 ---
 
+## Safari Technology Preview.app
+
+> https://developer.apple.com/safari/download/
+
+```
+$ cask install safari-technology-preview
+```
+
+---
+
 ## Sequel Pro @ Cask
 
 MySQLのDB管理
