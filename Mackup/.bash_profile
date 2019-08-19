@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# source ~/.profile
+# source ~/.bash_profile
 
 
 # ** EDIT : dotfiles repository path **
@@ -38,3 +38,7 @@ if [ -f '/Users/fjm/google-cloud-sdk/path.bash.inc' ]; then source '/Users/fjm/g
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/fjm/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/fjm/google-cloud-sdk/completion.bash.inc'; fi
+
+
+# avr-gcc@7 for qmk_firmware
+export PATH=/usr/local/opt/avr-gcc@7/bin:$PATH
