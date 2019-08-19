@@ -1,12 +1,18 @@
+tap "drgrib/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+tap "netlify/netlifyctl"
+tap "osx-cross/avr"
+tap "px4/px4"
 tap "sanemat/font"
 # Automatic configure script builder
 brew "autoconf"
 # Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
+# Atmel AVR MCU programmer
+brew "avrdude"
 # Library for command-line editing
 brew "readline"
 # Official Amazon AWS command-line interface
@@ -15,6 +21,8 @@ brew "awscli"
 brew "composer"
 # Filename encoding conversion tool
 brew "convmv"
+# Device firmware update based USB programmer for Atmel chips
+brew "dfu-programmer"
 # Distributed revision control system
 brew "git"
 # Powerful, lightweight programming language
@@ -23,6 +31,8 @@ brew "lua"
 brew "highlight"
 # Utility for creating and opening lzh archives
 brew "lha"
+# Conversion library
+brew "libiconv"
 # High performance, distributed memory object caching system
 brew "memcached"
 # C and C++ client library to the memcached server
@@ -43,6 +53,8 @@ brew "putty"
 brew "ruby-build"
 # Ruby version manager
 brew "rbenv"
+# Utility that provides fast incremental file transfer
+brew "rsync"
 # Command-line tool for the Amazon S3 service
 brew "s3cmd"
 # Display directories as trees (with optional color/HTML output)
@@ -59,6 +71,14 @@ brew "wget"
 brew "yarn"
 # General-purpose lossless data-compression library
 brew "zlib"
+# 
+brew "drgrib/tap/ttimer"
+# CLI to interact with netlify.com
+brew "netlify/netlifyctl/netlifyctl"
+# GNU compiler collection for AVR 8-bit and 32-bit Microcontrollers
+brew "osx-cross/avr/avr-gcc@7"
+# GNU Embedded Toolchain for ARM
+brew "px4/px4/gcc-arm-none-eabi"
 # Font for programming
 brew "sanemat/font/ricty"
 cask "1password"
@@ -76,6 +96,7 @@ cask "dropbox"
 cask "duet"
 cask "evernote"
 cask "fantastical"
+cask "figma"
 cask "firefox"
 cask "github"
 cask "google-backup-and-sync"
@@ -92,6 +113,7 @@ cask "mamp"
 cask "mapture"
 cask "messenger"
 cask "notion"
+cask "numi"
 cask "omnifocus"
 cask "paw"
 cask "runjs"
@@ -110,7 +132,7 @@ cask "vagrant"
 cask "virtualbox"
 cask "visual-studio-code"
 cask "vlc"
-mas "Airmail 3", id: 918858936
+mas "Airmail", id: 918858936
 mas "AirSketch", id: 1286744480
 mas "Be Focused", id: 973134470
 mas "BetterSnapTool", id: 417375580
