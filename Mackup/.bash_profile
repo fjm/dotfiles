@@ -2,7 +2,6 @@
 
 # source ~/.bash_profile
 
-
 # ** EDIT : dotfiles repository path **
 export DOTFILES=$HOME/git/fjm/dotfiles
 
@@ -40,5 +39,6 @@ if [ -f '/Users/fjm/google-cloud-sdk/path.bash.inc' ]; then source '/Users/fjm/g
 if [ -f '/Users/fjm/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/fjm/google-cloud-sdk/completion.bash.inc'; fi
 
 
-# avr-gcc@7 for qmk_firmware
+# avr-gcc@8 for qmk_firmware
+# export PATH=/usr/local/opt/avr-gcc@8/bin:$PATH
 export PATH=/usr/local/opt/avr-gcc@7/bin:$PATH
