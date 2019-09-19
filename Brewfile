@@ -15,6 +15,8 @@ brew "automake"
 brew "avrdude"
 # Library for command-line editing
 brew "readline"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Dependency Manager for PHP
@@ -23,6 +25,8 @@ brew "composer"
 brew "convmv"
 # Device firmware update based USB programmer for Atmel chips
 brew "dfu-programmer"
+# USB programmer
+brew "dfu-util"
 # Distributed revision control system
 brew "git"
 # Powerful, lightweight programming language
@@ -63,8 +67,6 @@ brew "tree"
 brew "unar"
 # Extract, view, and test RAR archives
 brew "unrar"
-# Vi 'workalike' with many additional features
-brew "vim"
 # Internet file retriever
 brew "wget"
 # JavaScript package manager
@@ -77,6 +79,8 @@ brew "drgrib/tap/ttimer"
 brew "netlify/netlifyctl/netlifyctl"
 # GNU compiler collection for AVR 8-bit and 32-bit Microcontrollers
 brew "osx-cross/avr/avr-gcc@7"
+# GNU compiler collection for AVR 8-bit and 32-bit Microcontrollers
+brew "osx-cross/avr/avr-gcc@8", link: true
 # GNU Embedded Toolchain for ARM
 brew "px4/px4/gcc-arm-none-eabi"
 # Font for programming
@@ -105,6 +109,7 @@ cask "google-chrome-canary"
 cask "hyperswitch"
 cask "imageoptim"
 cask "istat-menus"
+cask "jasper"
 cask "karabiner-elements"
 cask "kindle"
 cask "lepton"
