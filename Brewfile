@@ -7,6 +7,9 @@ tap "netlify/netlifyctl"
 tap "osx-cross/avr"
 tap "px4/px4"
 tap "sanemat/font"
+tap "shopify/shopify"
+# All in one for **env
+brew "anyenv"
 # Automatic configure script builder
 brew "autoconf"
 # Tool for generating GNU Standards-compliant Makefiles
@@ -19,6 +22,8 @@ brew "readline"
 brew "python"
 # Official Amazon AWS command-line interface
 brew "awscli"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
 # Dependency Manager for PHP
 brew "composer"
 # Filename encoding conversion tool
@@ -27,6 +32,10 @@ brew "convmv"
 brew "dfu-programmer"
 # USB programmer
 brew "dfu-util"
+# Modern replacement for 'ls'
+brew "exa"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
 # Distributed revision control system
 brew "git"
 # Powerful, lightweight programming language
@@ -41,14 +50,16 @@ brew "libiconv"
 brew "memcached"
 # C and C++ client library to the memcached server
 brew "libmemcached"
+# Clone of ls with colorful output, file type icons, and more
+brew "lsd"
 # Keep your Mac's application settings in sync
 brew "mackup"
 # Mac App Store command-line interface
 brew "mas"
 # Open source relational database management system
 brew "mysql"
-# Node.js version manager
-brew "nodebrew"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
 # Manage compile and link flags for libraries
 brew "pkg-config"
 # Implementation of Telnet and SSH
@@ -85,6 +96,8 @@ brew "osx-cross/avr/avr-gcc@8", link: true
 brew "px4/px4/gcc-arm-none-eabi"
 # Font for programming
 brew "sanemat/font/ricty"
+# Theme Kit is a tool kit for manipulating shopify themes
+brew "shopify/shopify/themekit"
 cask "1password"
 cask "alfred"
 cask "appcleaner"
@@ -127,10 +140,13 @@ cask "sequel-pro"
 cask "sketch"
 cask "skype"
 cask "slack"
+cask "sneek"
 cask "sourcetree"
 cask "spotify"
+cask "sublime-merge"
 cask "sublime-text"
 cask "taskpaper"
+cask "teamviewer"
 cask "tower"
 cask "transmit"
 cask "vagrant"

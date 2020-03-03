@@ -1,3 +1,4 @@
+source ~/.profile
 #!/usr/bin/env bash
 
 # source ~/.bash_profile
@@ -19,7 +20,10 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 # nodebrew
-export PATH=$HOME/.nodebrew/current/bin:$PATH
+# export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+# anyenv for nodenv
+eval "$(anyenv init -)"
 
 # system
 # ulimit -n 1024
