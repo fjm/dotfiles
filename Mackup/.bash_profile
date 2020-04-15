@@ -19,6 +19,8 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+
 # nodebrew
 # export PATH=$HOME/.nodebrew/current/bin:$PATH
 
@@ -46,3 +48,5 @@ if [ -f '/Users/fjm/google-cloud-sdk/completion.bash.inc' ]; then source '/Users
 # avr-gcc@8 for qmk_firmware
 # export PATH=/usr/local/opt/avr-gcc@8/bin:$PATH
 export PATH=/usr/local/opt/avr-gcc@7/bin:$PATH
+
+
