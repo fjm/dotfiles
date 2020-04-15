@@ -60,6 +60,8 @@ brew "mas"
 brew "mysql"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@1.1"
+# Command-line tool to generate, analyze, convert and manipulate colors
+brew "pastel"
 # Manage compile and link flags for libraries
 brew "pkg-config"
 # Implementation of Telnet and SSH
@@ -160,10 +162,12 @@ mas "BetterSnapTool", id: 417375580
 mas "CotEditor", id: 1024640650
 mas "Focus", id: 777233759
 mas "GarageBand", id: 682658836
+mas "Hidden Bar", id: 1452453066
 mas "iA Writer", id: 775737590
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
+mas "Micro Sniff", id: 1504024265
 mas "MindNode", id: 1289197285
 mas "Momentum", id: 1030442215
 mas "Monosnap", id: 540348655
