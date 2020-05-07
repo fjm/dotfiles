@@ -124,6 +124,7 @@ cask "google-chrome-canary"
 cask "hyperswitch"
 cask "imageoptim"
 cask "istat-menus"
+cask "iterm2"
 cask "jasper"
 cask "karabiner-elements"
 cask "kindle"
@@ -132,6 +133,7 @@ cask "linear"
 cask "mamp"
 cask "mapture"
 cask "messenger"
+cask "microsoft-teams"
 cask "notion"
 cask "numi"
 cask "omnifocus"
@@ -157,9 +159,10 @@ cask "visual-studio-code"
 cask "vlc"
 mas "Airmail", id: 918858936
 mas "AirSketch", id: 1286744480
-mas "Be Focused", id: 973134470
+mas "Be Focused Pro", id: 961632517
 mas "BetterSnapTool", id: 417375580
 mas "CotEditor", id: 1024640650
+mas "Evernote Web Clipper", id: 1481669779
 mas "Focus", id: 777233759
 mas "GarageBand", id: 682658836
 mas "Hidden Bar", id: 1452453066
@@ -168,6 +171,7 @@ mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
 mas "Micro Sniff", id: 1504024265
+mas "Microsoft To Do", id: 1274495053
 mas "MindNode", id: 1289197285
 mas "Momentum", id: 1030442215
 mas "Monosnap", id: 540348655
@@ -177,6 +181,7 @@ mas "PopClip", id: 445189367
 mas "Proxy", id: 874920950
 mas "Quiver", id: 866773894
 mas "Shotty", id: 1250306151
+mas "Spark", id: 1176895641
 mas "The Unarchiver", id: 425424353
 mas "Todoist", id: 585829637
 mas "Twitter", id: 409789998
