@@ -110,6 +110,7 @@ cask "charles"
 cask "cheatsheet"
 cask "cyberduck"
 cask "dash"
+cask "discord"
 cask "docker"
 cask "dropbox"
 cask "duet"
@@ -157,6 +158,7 @@ cask "vagrant"
 cask "virtualbox"
 cask "visual-studio-code"
 cask "vlc"
+cask "wordpresscom"
 mas "Airmail", id: 918858936
 mas "AirSketch", id: 1286744480
 mas "Be Focused Pro", id: 961632517
@@ -168,6 +170,7 @@ mas "GarageBand", id: 682658836
 mas "Hidden Bar", id: 1452453066
 mas "iA Writer", id: 775737590
 mas "iMovie", id: 408981434
+mas "Just Focus", id: 1142151959
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
 mas "Micro Sniff", id: 1504024265
